@@ -122,15 +122,15 @@ var-declaration
 
 根据实验文档的步骤编译后，`build/syntax_analyzer.h`文件中生成的`token`如下图所示：
 
-![](./figs/lab1_1.png)
+![](./lab1_1.png)
 
 运行部分测试数据后结果如下图所示：
 
-![](./figs/lab1_2.png)
+![](./lab1_2.png)
 
-![](./figs/lab1_3.png)
+![](./lab1_3.png)
 
-![](./figs/lab1_4.png)
+![](./lab1_4.png)
 
 对比Cminus-f源代码可知结果正确。
 
@@ -140,7 +140,7 @@ var-declaration
 
 通过文档中提供的 `test_syntax.sh` 脚本进行快速批量测试，结果如下图所示：
 
-![](./figs/lab1_5.png)
+![](./lab1_5.png)
 
 如上图所示，`easy` `normal` `hard`等测试集均通过，结果正确。
 
