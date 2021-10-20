@@ -341,9 +341,13 @@ label_falseBB:                                                ; preds = %label_w
 序列请按如下格式指明（序号为问题 2.1 中的编号）：  
 3->2->5->1
 
-1. 抽象语法树如下图所示：
+1. 分析树如下图所示：
 
    <img src="./figs/tree.png"  />
+   
+   对应抽象语法树如下图所示：
+   
+   <img src="./figs/abstract.png"  />
 
    如上图所示，`CalcAST*` 类型左侧为数字编号，右侧括号内的数字为该类型存储的值。
 
