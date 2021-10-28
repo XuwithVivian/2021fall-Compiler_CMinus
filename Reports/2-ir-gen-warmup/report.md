@@ -354,7 +354,7 @@ label_falseBB:                                                ; preds = %label_w
 ## 问题3: getelementptr
 请给出 `IR.md` 中提到的两种 getelementptr 用法的区别,并稍加解释:
   - `%2 = getelementptr [10 x i32], [10 x i32]* %1, i32 0, i32 %0`
-  - `%2 = getelementptr i32, i32* %1 i32 %0`
+  - `%2 = getelementptr i32, i32* %1, i32 %0`
 
 第一句中，`[10 x i32]`表示10位整型数组，`[10 x i32]*`表示指向数组的指针，`%1`为数组指针，`i32 0`表示数组指针的第0位，类型为`[10 x i32]`；`i32 %0`表示`0`位数组中下标为`%0`的元素，类型为`i32`。
 
